@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen"
+    
+</head>
+<body>
+
+        <div class="campo">
+
+            <h1 id="titulo">Cadastro de Players (Fornite) </h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br> 
+
+        </div>
+        <img src="fortnite.png" alt="Fortnite competitivo" class="imagem direita"> 
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="Nome"><strong>Nome</strong></label>
+
+                    <input type="text" name="Nome" id="Nome" required
+
+                </div> 
+
+                <div class="campo">
+                    <label for="Sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="Sobrenome" id="Sobrenome" required
+
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <label for="Email"><strong>Email</strong></label>
+                <input type="email" name="Email" id="Email" required 
+            </div>
+
+
+            <div class="campo">
+
+                <label><strong>modo royale você joga atualmente?</strong> </label>
+
+                <label>
+                    <input type="radio" name="Fortnite" value="Construção" checked> Fornite C. Construção
+                </label>
+                <label> 
+                    <input type="radio" name="Fortnite" value="Sem Construção"> Fortnite Zero Construção
+                </label>
+            </div>
+            
+                <div id="checkbox">
+                    <label for="Patentes"><strong>Qual é sua patente no competitivo</strong></label>
+                    <select id="Patentes">
+                        <option>Bronze ( III, II, I ) </option> 
+
+                        <option>Prata ( III, II, I ) </option>
+
+                        <option>Ouro ( III, II, I ) </option>
+
+                        <option>Platina ( III, II, I ) </option>
+
+                        <option>Diamante ( III, II, I ) </option>
+
+                        <option>Elite.</option>
+
+                        <option>Lenda.</option>
+
+                        <option>Surreal.</option>
+
+                    </select>
+                </div>
+
+            
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label><strong>Em qual plataforma você cria conteúdo?</strong></label><br><br>
+                    <input type="checkbox" id="redesocial1" value="Youtube" checked> 
+                    <label for= "redesocial1">Youtube</label> 
+                    <input type="checkbox" id="redesocial2" value="Twitch">
+                    <label for="redesocial2">Twitch</label> 
+                    <input type="checkbox" id="redesocial3" value="Não crio conteúdo">
+                    <label for="redesocial3">Não crio conteúdo</label>
+                </div>
+            </fieldset>
+            
+            <div class="campo">
+                <br>
+                <label><strong>Fala sobre você player, queremos saber como você conheceu fortnite, e a quanto tempo você joga</strong></label>
+                <textarea rows="6" style="width: 26em;" id="tempo" name="tempo"></textarea>
+            </div>
+            <button class="Botão"type="submit">Concluido</button>
+        </form>
+        <a href=https://www.fortnite.com/competitive?lang=en-US">
+            <img src="logo.png" alt="epicgames" class=logo 
+        </a>
+        
+        
+</body>
+</html>
